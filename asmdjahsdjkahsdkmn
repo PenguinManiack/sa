@@ -58,7 +58,6 @@ UIS.InputBegan:Connect(function(input)
 tool.Unequipped:Connect(function()
     if track then
         track:Stop()
-            bullet:Destroy()
 end
 end)
     end)
@@ -123,7 +122,6 @@ UIS.InputBegan:Connect(function(input)
 tool.Unequipped:Connect(function()
     if track then
         track:Stop()
-            bullet:Destroy()
 end
 end)
         end)
@@ -188,7 +186,7 @@ UIS.InputBegan:Connect(function(input)
 tool.Unequipped:Connect(function()
     if track then
         track:Stop()
-            bullet:Destroy()
+
 end
 end)
     end)
